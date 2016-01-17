@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure de création et de peuplement d'un groupe</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Créer un groupe</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Une fenêtre de création de groupe s'affiche :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/popup-creation-groupe.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Compléter</sc:inlineStyle> le champ <sc:inlineStyle role="emphasis"> Nom</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:note>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Seul le <sc:inlineStyle role="emphasis">champ Nom</sc:inlineStyle> est <sc:inlineStyle role="emphasis">obligatoire</sc:inlineStyle>. Si vous laissez le<sc:inlineStyle role="emphasis"> champ Code</sc:inlineStyle> vide, celui-ci <sc:inlineStyle role="emphasis">sera généré automatiquement</sc:inlineStyle> par le système.</sc:para>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:note>
+					</dk:comment>
+				</sp:detail>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Inscrire</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:warning>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Lorsque le groupe est créé, le coordinateur qui créé le groupe y est inscrit automatiquement. Après avoir peuplé le groupe, il pourra s'en désinscrire si besoin.</sc:para>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:warning>
+					</dk:comment>
+				</sp:detail>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">On est redirigé vers la liste des membres :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-coordonner-membres.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner</sc:inlineStyle> le ou <sc:inlineStyle role="emphasis">les membres</sc:inlineStyle> à ajouter au groupe créé</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/sélection-membre.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve">Dans la liste déroulante <sc:inlineStyle role="emphasis">pour la sélection</sc:inlineStyle>, <sc:inlineStyle role="emphasis">choisir</sc:inlineStyle> en bas de liste <sc:inlineStyle role="emphasis">Ajouter/retirer les membres d'un groupe</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/select-ajout-retrait-membre-groupe.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:detail>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Un fenêtre de demande de confirmation s'affiche :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-operation.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">OK</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Une fenêtre de confirmation de l'ajout/retrait du membre s'affiche (variable en fonction de l'action réalisée) :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-ajout-membres.png"/>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-confirmation-suppr-membre.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">La liste</sc:inlineStyle> des membres <sc:inlineStyle role="emphasis">s'affiche</sc:inlineStyle> avec l'information d'inscription au groupe <sc:inlineStyle role="emphasis">mise à jour</sc:inlineStyle> pour le ou les membres concernés <sc:inlineStyle role="emphasis">dans la colonne Appartenance</sc:inlineStyle>.</sc:para>
+										<sc:para xml:space="preserve">Pour l'<sc:inlineStyle role="emphasis">exemple amapiens-laitages</sc:inlineStyle> :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/affichage-membres-groupe-modif.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+	</dk:stepList>
+</sc:item>

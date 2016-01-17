@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure d'ajout d'un membre à partir de la liste d'attente.</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:prereq>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Se connecter</sc:inlineStyle> avec un compte ayant les <sc:inlineStyle role="emphasis">droits de coordinateur</sc:inlineStyle></sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">L'<sc:inlineStyle role="emphasis">état des inscriptions</sc:inlineStyle> pour l'AMAP a été paramétrée <sc:inlineStyle role="emphasis">sur liste d'attente</sc:inlineStyle>.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:prereq>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Filtrer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre proposant une ensemble de filtres sur les membres s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/filtre-membres-general.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner</sc:inlineStyle><sc:inlineStyle role="emphasis"> La liste d'attente</sc:inlineStyle> dans la <sc:inlineStyle role="emphasis">liste déroulante</sc:inlineStyle> <sc:inlineStyle role="emphasis">Membres</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre proposant une ensemble de filtres sur les membres s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/filtre-membres-liste-attente.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Filtrer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une page affichant les personnes inscrites en liste d'attente s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/affichage-liste-attente.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cocher</sc:inlineStyle> la ou <sc:inlineStyle role="emphasis">les personnes</sc:inlineStyle> à ajouter aux membres de l'AMAP.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/sélection-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve">Dans la liste déroulante pour la sélection, <sc:inlineStyle role="emphasis">sélectionner Ajouter aux membres</sc:inlineStyle>.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de demande de confirmation s'ouvre :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-operation.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">OK</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de confirmation s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-ajout-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La liste d'attente actualisée s'affiche sans la personne remontée dans les membres :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/affichage-liste-attente-2.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:advice>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Vous pouvez <sc:inlineStyle role="emphasis">supprimer</sc:inlineStyle> le filtre<sc:inlineStyle role="emphasis"> liste d'attente</sc:inlineStyle> pour <sc:inlineStyle role="emphasis">afficher</sc:inlineStyle> la liste de<sc:inlineStyle role="emphasis"> tous les membres</sc:inlineStyle> :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-coordonner-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:advice>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+	</dk:stepList>
+</sc:item>

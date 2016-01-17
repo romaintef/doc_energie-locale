@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Gestion des produits</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Cette section de la documentation détaillera bientôt la gestion des produits sur le site web de l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>

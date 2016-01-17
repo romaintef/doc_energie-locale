@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure d'affichage des membres d'un groupe</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps sc:refUri="/membres/membres-groupes/etapes_afficher-membres-groupe.unit"/>
+	</dk:stepList>
+</sc:item>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:screen xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<dk:screenMeta>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Gestion des notifications aux membres</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:screenMeta>
+		<sp:img sc:refUri="/membres/membres-generalites/membres-param-zone-notifications.png"/>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>15,30,646,116</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Modalités de notification aux coordinateurs</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>16,118,647,196</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Modalités de notification aux producteurs</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>15,197,647,232</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Modalités de notification des activités</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+	</dk:screen>
+</sc:item>

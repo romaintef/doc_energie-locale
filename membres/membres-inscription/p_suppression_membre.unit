@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure de suppression d'un membre par un coordinateur</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:prereq>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Se connecter avec un compte ayant les droits de "coordinateur"</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:prereq>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cocher la case</sc:inlineStyle> pour le ou<sc:inlineStyle role="emphasis"> les membres à supprimer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/sélection-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner <sc:inlineStyle role="emphasis">"Retirer des membres"</sc:inlineStyle></sc:inlineStyle> dans la liste déroulante :</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/select-supprimer-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de demande de confirmation s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-operation.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">OK</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de confirmation de la suppression de la liste des membres de l'AMAP s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-confirmation-suppr-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La liste des membres s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-coordonner-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+	</dk:stepList>
+</sc:item>

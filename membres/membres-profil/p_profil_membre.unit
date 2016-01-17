@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Modification du profil d'un membre par un coordinateur</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:prereq>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Se connecter</sc:inlineStyle> avec un compte ayant les <sc:inlineStyle role="emphasis">droits de coordinateur</sc:inlineStyle></sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:prereq>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cocher la case</sc:inlineStyle> pour le ou les <sc:inlineStyle role="emphasis">membres </sc:inlineStyle>dont vous souhaitez <sc:inlineStyle role="emphasis">modifier le profil</sc:inlineStyle>.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/sélection-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner l'action</sc:inlineStyle> que vous souhaitez réaliser dans la <sc:inlineStyle role="emphasis">liste déroulante</sc:inlineStyle> :</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">En fonction de l'action que vous souhaitez réaliser, vous sélectionnerez l'<sc:inlineStyle role="emphasis">une des 4 propositions suivantes</sc:inlineStyle> :</sc:para>
+												<sc:simpleList>
+													<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">Ajouter</sc:inlineStyle> les droits <sc:inlineStyle role="emphasis">coordinateur</sc:inlineStyle></sc:member>
+													<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">Retirer</sc:inlineStyle> les droits <sc:inlineStyle role="emphasis">coordinateur</sc:inlineStyle></sc:member>
+													<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">Activer</sc:inlineStyle> le profil <sc:inlineStyle role="emphasis">fournisseur</sc:inlineStyle></sc:member>
+													<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">Désactiver</sc:inlineStyle> le profil <sc:inlineStyle role="emphasis">fournisseur</sc:inlineStyle></sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-profil/select-modif-profil-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de demande de confirmation s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-operation.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">OK</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre de confirmation de l'opération s'affiche (message variable en fonction de l'opération réalisée) :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-ajout-membres.png"/>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-confirmation-suppr-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La liste des membres s'affiche en tenant compte de la modification apportée dans la <sc:inlineStyle role="emphasis">colonne Appartenance</sc:inlineStyle> :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-coordonner-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+	</dk:stepList>
+</sc:item>

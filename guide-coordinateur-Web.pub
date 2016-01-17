@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:guideWRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:guideWRootM>
+			<sp:longTitle>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Guide du coordinateur en AMAP gérée sur energielocale.org</sc:para>
+				</dk:textSimple>
+			</sp:longTitle>
+			<sp:logo sc:refUri="/illustrations-communes/logo.jpg"/>
+			<sp:info>
+				<dk:rootM>
+					<sp:version>1.0 BETA</sp:version>
+					<sp:date>Janvier 2016</sp:date>
+					<sp:author>
+						<dk:textSimple>
+							<sc:para xml:space="preserve">Association Énergie Locale</sc:para>
+						</dk:textSimple>
+					</sp:author>
+					<sp:copyright>Association Énergie locale - Nantes - France</sp:copyright>
+					<sp:licence>
+						<dk:textSimple>
+							<sc:para xml:space="preserve">Licence Creative Commons BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/</sc:para>
+						</dk:textSimple>
+					</sp:licence>
+				</dk:rootM>
+			</sp:info>
+			<sp:settings>
+				<sp:glos>yes</sp:glos>
+			</sp:settings>
+		</dk:guideWRootM>
+		<sp:guide sc:refUri="/guide-coordinateur.scen"/>
+	</dk:guideWRoot>
+</sc:item>

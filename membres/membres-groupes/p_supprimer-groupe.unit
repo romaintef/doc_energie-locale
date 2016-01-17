@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure pour supprimer un groupe</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps sc:refUri="/membres/membres-groupes/etapes_afficher-membres-groupe.unit"/>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner</sc:inlineStyle> <sc:inlineStyle role="emphasis">tous les membres</sc:inlineStyle> affichés :</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/select-membres-retrait-groupe.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:tip>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">En cochant la case qui se situe à gauche de la liste déroulante "pour la sélection", on sélectionne tous les membres du groupe.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:tip>
+							</dk:comment>
+						</sp:detail>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner</sc:inlineStyle> <sc:inlineStyle role="emphasis">Ajouter/retirer des membres d'un groupe</sc:inlineStyle> tout en bas de la liste déroulante :</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/select-retrait-membres-groupe.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre d'ajout / suppression à un groupe s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/popup-select-membre-groupe-vierge.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Sélectionner</sc:inlineStyle> le <sc:inlineStyle role="emphasis">groupe concerné</sc:inlineStyle> puis <sc:inlineStyle role="emphasis">cocher</sc:inlineStyle> l'option <sc:inlineStyle role="emphasis">Supprimer du groupe</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Pour l'exemple amapiens-laitages :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/popup-select-retrait-membres-groupe.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Appliquer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Un message de demande de confirmation s'affiche : </sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/popup-confirmation-operation.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> su <sc:inlineStyle role="emphasis">OK</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre indiquant le nombre de membres retirés s'affiche en faisant mention de la suppression du groupe vide :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/popup-confirm-retrait-et-sup-groupe.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La liste vide des membres du groupe s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/affichage-membres-groupe-vide.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+		<sp:result>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Le groupe</sc:inlineStyle> concerné <sc:inlineStyle role="emphasis">n'existe plus</sc:inlineStyle>. Pour l'exemple, le <sc:inlineStyle role="emphasis">groupe amapiens-laitages</sc:inlineStyle> a été <sc:inlineStyle role="emphasis">supprimé</sc:inlineStyle>.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:result>
+	</dk:stepList>
+</sc:item>

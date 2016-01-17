@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:userGuide xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>S'inscrire sur le site energielocale.org</sp:sTitle>
+		</dk:headTitle>
+		<sp:intro>
+			<dk:optHTitle/>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Vous désirez rejoindre une AMAP à partir de son site web hébergé sur la plate-forme <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink>. </sc:para>
+								<sc:para xml:space="preserve">Ce tutoriel vous permet de comprendre comment retrouver une AMAP sur la plate-forme et le cas échéant vous y inscrire.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:intro>
+		<sp:subSection sc:refUri="/guides_divers/guide-inscription/section_guide_inscription_autonome.scen"/>
+		<sp:conclu>
+			<dk:optHTitle/>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Vous êtes désormais inscrit(e) comme membre ou sur liste d'attente d'une AMAP. N'hésitez-pas à entrer en contact avec les membres ou à passer sur le lieu de distribution afin de concrétiser réellement votre inscription en souscrivant un ou plusieurs contrats proposés par l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:conclu>
+	</dk:userGuide>
+</sc:item>

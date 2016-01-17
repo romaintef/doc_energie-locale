@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>profil membre</sp:notion>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Profil donné par défaut à toute personne inscrite sur le site de l'AMAP. Les membres sont aussi appelés mangeurs ou amapiens.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

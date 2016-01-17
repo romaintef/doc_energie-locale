@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Référent - Référente</sp:notion>
+			<sp:syn>Coordinateur - Coordinatrice</sp:syn>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Un référent ou une référente est une personne ayant la responsabilité d'un contrat au sein de l'AMAP. Si les produits proposés au sein de son contrat sont gérés sur le site de l'AMAP, elle doit avoir des droits de coordinateur.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Généralités sur la gestion des membres</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:part sc:refUri="/membres/membres-generalites/generalites_membres.unit"/>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">Activer et accéder à la gestion des membres</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:op sc:refUri="/membres/membres-generalites/p_activation_gestion_membres.unit"/>
+								<sp:op sc:refUri="/membres/membres-generalites/p_acces_parametrage_membres.unit"/>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">Paramètres disponibles pour la gestion des membres</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Voici un tour d'horizon des paramètres disponibles dédiés à la gestion des membres.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:screen sc:refUri="/membres/membres-generalites/ecran-param-membres-inscriptions.unit"/>
+								<sp:screen sc:refUri="/membres/membres-generalites/ecran-param-membres-g-membres.unit"/>
+								<sp:infobloc>
+									<dk:blocTi>
+										<sp:rTitle>
+											<dk:richTitle>
+												<sc:para xml:space="preserve">Gestion des comptes</sc:para>
+											</dk:richTitle>
+										</sp:rTitle>
+									</dk:blocTi>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve"> Gestion des comptes des membres : cette option permet d'activer les fonctions de débit et de crédit pour les comptes des membres. Elle permet également de fixer la possibilité ou non de passer en solde négatif (autorisation de découvert).</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/membres-param-zone-comptes.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:infobloc>
+									<dk:blocTi>
+										<sp:rTitle>
+											<dk:richTitle>
+												<sc:para xml:space="preserve">Gestion des adhésions</sc:para>
+											</dk:richTitle>
+										</sp:rTitle>
+									</dk:blocTi>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La <sc:inlineStyle role="emphasis">Gestion des adhésions</sc:inlineStyle> permet de définir le <sc:inlineStyle role="emphasis">message de rappel</sc:inlineStyle> pour tous les membres n'ayant pas réglé le montant <sc:inlineStyle role="emphasis">de leur adhésion</sc:inlineStyle>.</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/membres-param-zone-adhesions.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:screen sc:refUri="/membres/membres-generalites/ecran-param-membres-notifications.unit"/>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:part xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:rTitle>
+			<sp:rTitle>
+				<dk:richTitle>
+					<sc:para xml:space="preserve">Le service de gestion des membres</sc:para>
+				</dk:richTitle>
+			</sp:rTitle>
+		</dk:rTitle>
+		<sp:co>
+			<dk:content>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">C'est quoi ? à quoi ça sert ?</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La <sc:inlineStyle role="emphasis">gestion des membres</sc:inlineStyle> est un service que l'on peut activer ou non sur le site de son AMAP.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Ce service <sc:inlineStyle role="emphasis">permet à chaque visiteur du site web de l'AMAP</sc:inlineStyle> disposant d'une adresse de messagerie électronique (mail) <sc:inlineStyle role="emphasis">de </sc:inlineStyle><sc:inlineStyle role="emphasis"><sc:inlineStyle role="emphasis">se créer un compte</sc:inlineStyle></sc:inlineStyle> lui permettant de<sc:inlineStyle role="emphasis"> devenir membre de l'AMAP</sc:inlineStyle> et d'<sc:inlineStyle role="emphasis">utiliser les services en ligne</sc:inlineStyle> qu'elle propose.</sc:para>
+												<sc:para xml:space="preserve">La <sc:inlineStyle role="emphasis">création d'un compte</sc:inlineStyle> est cependant <sc:inlineStyle role="emphasis">possible par un coordinateur</sc:inlineStyle>. Dans ce cas, il devra fixer lui-même le mot de passe associé et le transmettre à la personne intéressée.</sc:para>
+												<sc:para xml:space="preserve">Grâce à la gestion des membres <sc:inlineStyle role="emphasis">chaque amapien</sc:inlineStyle> possède donc son propre compte avec lequel il <sc:inlineStyle role="emphasis">peut se connecter  sur le site de l'AMAP</sc:inlineStyle>, effectuer des actions en fonction de ses droits, et recevoir automatiquement un certain nombre de notifications par messagerie électronique (mail).</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:note>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La gestion des membres permet de transférer sur le site de l'AMAP une gestion fastidieuse par fichiers tableurs ou par messagerie qui pose notamment des problèmes de mise à jour. </sc:para>
+												<sc:para xml:space="preserve">Elle permet de partager un annuaire commun entre tous les acteurs de l'AMAP : producteurs, amapiens, coordinateurs. </sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:note>
+								<sp:note>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">La gestion des membres permet</sc:inlineStyle> également de proposer<sc:inlineStyle role="emphasis"> l'inscription en ligne sur le site de l'AMAP</sc:inlineStyle>. C'est un vecteur d'inscription et de renouvellement des membres non-négligeable pour de nombreuses AMAP.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:note>
+								<sp:warning>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve"> L'activation de la gestion des membres est un pré-requis nécessaire à l'utilisation d'autres fonctionnalités telles que la gestion des adhésions, des permanences ou des commandes, etc. L'utilisation de ce service peut cependant se faire progressivement pour arriver à des usages plus avancés.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:warning>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">Tour d'horizon</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Les principaux apports de ce service sont les suivants :</sc:para>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">fonctionnalités permettant l<sc:inlineStyle role="emphasis">'inscription en ligne des visiteurs</sc:inlineStyle> du le site de l'AMAP, directement comme membres ou en passant par la liste d'attente.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/service_membres_sinscrire_bouton.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">Un <sc:inlineStyle role="emphasis">annuaire partagé et exportable des membres</sc:inlineStyle> et de leurs rôles, membre (particulier), fournisseur (producteur) et coordinateur,  qui constitue une référence unique pour tous les acteurs de l'AMAP.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/service_membres_roles_membres.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">La<sc:inlineStyle role="emphasis"> gestion de groupes libres</sc:inlineStyle>, qui permet d'<sc:inlineStyle role="emphasis">organiser</sc:inlineStyle> l'appartenance <sc:inlineStyle role="emphasis">les membres</sc:inlineStyle> autour d'activités ou de contrats.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/service_membres_liste_groupes.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">fonctionnalités de <sc:inlineStyle role="emphasis">communication entre membres</sc:inlineStyle>, producteurs ou coordinateurs  avec la possibilité de filtrer et de sélectionner les destinataires facilement.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/service_membres_mail_bouton.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+			</dk:content>
+		</sp:co>
+	</dk:part>
+</sc:item>

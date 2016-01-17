@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>profil coordinateur</sp:notion>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Le <sc:inlineStyle role="emphasis">profil</sc:inlineStyle> de <sc:inlineStyle role="emphasis">coordinateur</sc:inlineStyle> donne des droits étendus sur toutes les fonctionnalités présentes sur le site de l'AMAP. Il est en général donné aux référents de contrat ou à toute autre personne ayant un rôle actif dans la gestion de l'AMAP : responsable du site, responsable des permanences, etc.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

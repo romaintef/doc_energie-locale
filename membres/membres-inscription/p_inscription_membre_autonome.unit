@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure d'inscription à une AMAP</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:intro>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Tout visiteur du site d'une AMAP géré par la plate-forme <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink> peut s'inscrire à une AMAP. La fonctionnalité d'inscription est disponible à tous si elle a été activée :</sc:para>
+								<sc:extBlock role="fig" sc:refUri="/membres/membres-generalites/service_membres_sinscrire_bouton.png"/>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:note>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Suite à une inscription sur le site d'une AMAP, deux scénarios sont possibles :</sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve">On est inscrit directement comme membre de l'AMAP. Il suffit ensuite de rentrer en contact avec les membres et coordinateurs de l'AMAP afin de souscrire un ou plusieurs contrats.</sc:member>
+									<sc:member xml:space="preserve">On est inscrit sur la liste d'attente de l'AMAP. On peut alors contacter les membres et les coordinateurs ou être contacté par ceux-ci. Suite à ces échanges et pour souscrire un contrat, il faudra qu'un coordinateur de l'AMAP valide l'inscription dans la liste des membres.</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:note>
+			</dk:comment>
+		</sp:intro>
+		<sp:prereq>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La <sc:inlineStyle role="emphasis">Gestion des membres</sc:inlineStyle> doit avoir été activée et initialisée par un coordinateur de l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:prereq>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Ouvrir un navigateur</sc:inlineStyle> web et accéder au site à l'adresse web (URL) suivante : <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La page d'accueil du site Énergie locale s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-enl.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur le menu <sc:inlineStyle role="emphasis">ANNUAIRE</sc:inlineStyle> pour accéder à la liste des AMAP gérées par le site Énergie locale.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Rechercher</sc:inlineStyle> l'AMAP la plus proche de chez vous ou <sc:inlineStyle role="emphasis">une AMAP</sc:inlineStyle> que vous avez déjà identifiée dans la liste proposée.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:tip>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Si vous connaissez le nom de l'AMAP à laquelle vous souhaitez vous inscrire, la combinaison CTRL + F ou ⌘ + F permet d'effectuer une recherche au sein de la page.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:tip>
+							</dk:comment>
+						</sp:detail>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Pour l'exemple, l'<sc:inlineStyle role="emphasis">AMAP de démonstration</sc:inlineStyle> :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/amap-demo-annuaire.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur le lien dirigeant vers le site de l'AMAP</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La page d'accueil publique du site de l'AMAP s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-amap-non-connecte.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">S'inscrire</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">La page qui s'affiche propose de s'authentifier mais aussi de <sc:inlineStyle role="emphasis">créer un compte</sc:inlineStyle> :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-amap-mire-sinscrire.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Créer un compte</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Le formulaire d'inscription s'affiche :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/formulaire-inscription-amap.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Compléter</sc:inlineStyle> les champs obligatoires puis <sc:inlineStyle role="emphasis">valider</sc:inlineStyle> la saisie en bas de page.</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Une fenêtre de notification s'ouvre vous confirmant votre inscription :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-confirm-inscription-membre-autonome.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle> la fenêtre de notification d'inscription</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Une page d'accueil personnalisée de bienvenue s'affiche : </sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/accueil-nouvel-inscrit.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+	</dk:stepList>
+</sc:item>

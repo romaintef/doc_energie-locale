@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:screen xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<dk:screenMeta/>
+		<sp:img sc:refUri="/illustrations-communes/menu-complet.png"/>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des permanences</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>6,110,186,137</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La gestion des permanences permet aux coordinateurs de définir un nombre de permanents nécessaires pour chaque date de livraison. On peut également définir des rôles différents à assumer.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:infobloc>
+					<dk:blocTi>
+						<sp:rTitle>
+							<dk:richTitle>
+								<sc:para xml:space="preserve">Gestion des membres</sc:para>
+							</dk:richTitle>
+						</sp:rTitle>
+					</dk:blocTi>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les membres (amapiens, mangeurs) peuvent s'inscrire en autonomie aux permanences et s'en désinscrire en cas d'impossibilité. Un e-mail de rappel est envoyé à tous si le nombre de permanents est insuffisant une semaine avant la date de livraison concernée.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des commandes</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,267,184,295</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Le site permet de gérer les commandes de produits en ligne.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les commandes peuvent être fermes ou modifiables par les amapiens dans un certain délai d'avant livraison fixé par un coordinateur.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des dates de livraison</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,296,184,323</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les dates de livraisons peuvent être définies par un coordinateur en précisant les producteurs concernés, le nombre de permanents requis, etc.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des produits</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,325,183,351</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les produits distribués par chaque producteur au sein de l'AMAP peuvent être saisis ou importés.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:note>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Chaque produit peut être rendu disponible ou non-disponible à la commande pour les amapiens ayant un compte ouvert avec le producteur concerné.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:note>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des contrats dématérialisés</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,353,183,379</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les contrats dématérialisés peuvent être gérés par producteur.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des comptes</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,380,183,410</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les comptes sont définis entre un amapien et un producteur. Ils rendent possibles la saisie, le passage  de commandes ou la modification de commandes par les amapiens.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des membres</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>8,413,184,440</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La gestion des membres est la fonctionnalité minimum à mettre en œuvre pour bénéficier de toute la richesse de l'outil. </sc:para>
+								<sc:para xml:space="preserve">Elle peut être utilisée indépendamment des autres fonctionnalités uniquement à des fins de gestion des inscriptions, adhésions et pour un partage de la base des membres entre tous les membres et référent(e)s de l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion des activités</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,441,183,466</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les activités permettent d'affecter des tâches à des membres.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion du site web de l'AMAP</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,469,184,496</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La gestion du site de l'AMAP est une fonctionnalité minimum à mettre en place lorsque l'on débute avec l'outil. Il permet un affichage public de certains contenus publiés : présentation générale de l'AMAP, emplacement du lieu de distribution, produits disponibles au sein de l'AMAP, etc.</sc:para>
+								<sc:para xml:space="preserve">Il permet également une diffusion sélective d'information uniquement vers les membres de l'AMAP (espace membres).</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion du paramétrage</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,497,184,522</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Tous les services proposés et actions associées sont paramétrables.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Accès à l'assistance</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>7,525,184,554</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">En cas de difficultés, les coordinateurs peuvent contacter directement l'assistance gérée par l'association Énergie Locale.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+	</dk:screen>
+</sc:item>

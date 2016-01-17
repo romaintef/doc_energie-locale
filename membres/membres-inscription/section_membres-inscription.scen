@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Gérer les inscriptions</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les membres peuvent s'inscrire eux même à partir de la page d'accueil d'une AMAP. Ils peuvent aussi être inscrits par un coordinateur. Ils peuvent également être supprimés et seul un coordinateur peut leur attribuer un profil différent que le simple profil de <sc:inlineStyle role="emphasis">membre</sc:inlineStyle>.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:content>
+		</sp:content>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Inscription d'un membre par un coordinateur</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-inscription/p_inscription_membres.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Inscription d'un membre en autonomie</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-inscription/p_inscription_membre_autonome.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Ajout d'un membre à partir de la liste d'attente</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-inscription/p_remontee-membres-liste-attente.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Suppression d'un membre</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-inscription/p_suppression_membre.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+	</dk:section>
+</sc:item>

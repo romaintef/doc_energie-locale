@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Modifier le profil d'un membre</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La notion de profil permet de distinguer les différents rôles des membres de l'AMAP et conditionne les droits d'accès aux différentes fonctionnalités du site :</sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve">membre : c'est le profil donné par défaut à toute personne inscrite sur le site de l'AMAP. Les membres sont aussi appelés mangeurs ou amapiens.</sc:member>
+									<sc:member xml:space="preserve">coordinateur : le profil de coordinateur donne des droits étendus sur toutes les fonctionnalités présentes sur le site de l'AMAP.</sc:member>
+									<sc:member xml:space="preserve">fournisseur : le profil fournisseur concerne les producteurs distribuant leurs produits au sein de l'AMAP.</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La modification du profil d'un membre est utile dans différents cas :</sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve">ajout des droits de coordinateur pour une nouvelle personne prenant le rôle de référent(e) de contrat</sc:member>
+									<sc:member xml:space="preserve">suppression des droits de coordinateur pour une personne quittant le rôle de référent(e) de contrat.</sc:member>
+									<sc:member xml:space="preserve">Ajout du profil "fournisseur" à une personne déjà inscrite sur le site sans avoir été déclarée comme fournisseur / producteur distribuant des produits au sein de l'AMAP.</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:op sc:refUri="/membres/membres-profil/p_profil_membre.unit"/>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>

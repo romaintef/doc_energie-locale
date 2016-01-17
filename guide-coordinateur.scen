@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:userGuide xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Guide du coordinateur</sp:sTitle>
+		</dk:headTitle>
+		<sp:intro>
+			<dk:optHTitle/>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce guide détaille les fonctionnalités proposées aux coordinateurs des AMAP utilisant le site <sc:uLink role="url" url="http://energielocale.org">energielocale.org</sc:uLink>. </sc:para>
+								<sc:para xml:space="preserve">Il doit permettre de prendre en main les outils et de réaliser les paramétrages minimum pour initialiser le site de l'AMAP et les services proposés à ses membres.</sc:para>
+								<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-enl-3D.png"/>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:warning>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Pour réaliser les actions décrites dans cette documentation, vous devez avoir créé un compte et être membre d'une AMAP gérée sur la plate-forme <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink> avec les droits de coordinateur.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:warning>
+				<sp:advice>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Si vous n'avez pas les droits de coordinateur, seul un membre de l'AMAP ayant des droits de coordinateur peut vous les octroyer Il faut donc vous renseigner auprès des personnes référentes de votre AMAP afin de les obtenir.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:advice>
+			</dk:comment>
+		</sp:intro>
+		<sp:subSection sc:refUri="/tour-fonctionnalites.scen"/>
+		<sp:subSection sc:refUri="/connexion-detaillee.scen"/>
+		<sp:subSection sc:refUri="/membres/gestion-membres.scen"/>
+		<sp:subSection sc:refUri="/livraisons/livraisons.scen"/>
+		<sp:subSection sc:refUri="/permanences/permanences.scen"/>
+		<sp:subSection sc:refUri="/produits/produits.scen"/>
+		<sp:subSection sc:refUri="/commandes/section_commandes.scen"/>
+		<sp:subSection sc:refUri="/contrats/contrats.scen"/>
+		<sp:subSection sc:refUri="/contenu/contenu.scen"/>
+	</dk:userGuide>
+</sc:item>

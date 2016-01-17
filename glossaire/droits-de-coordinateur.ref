@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Droits de coordinateur - coordinatrice</sp:notion>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Les droits de coordinateur - coordinatrice sont nécessaires pour effectuer un certain nombre d'opération sur le site web de l'AMAP. Ils peuvent être obtenus par un autre coordinateur déclaré sur le site.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Se connecter au site</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Pour se connecter au site,  vous devez avoir créé un compte et être membre d'une AMAP gérée sur la plate-forme <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink>.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:op sc:refUri="/p_detaillee-connexion-site.unit"/>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>

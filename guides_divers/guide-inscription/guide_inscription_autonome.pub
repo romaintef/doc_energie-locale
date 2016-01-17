@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:guidePRoot xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:guidePRootM>
+			<sp:longTitle>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Comment s'inscrire à une AMAP gérée par la plate-forme  <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink></sc:para>
+				</dk:textSimple>
+			</sp:longTitle>
+			<sp:img sc:refUri="/illustrations-communes/QR-code-energielocale.org.png"/>
+			<sp:logo sc:refUri="/illustrations-communes/logo.jpg"/>
+			<sp:info>
+				<dk:rootM>
+					<sp:version>1.0</sp:version>
+					<sp:date>13 Janvier 2016</sp:date>
+					<sp:author>
+						<dk:textSimple>
+							<sc:para xml:space="preserve">Association Énergie Locale</sc:para>
+						</dk:textSimple>
+					</sp:author>
+					<sp:copyright>Association Énergie locale</sp:copyright>
+					<sp:licence>
+						<dk:textSimple>
+							<sc:para xml:space="preserve">Licence CC BY 4.0</sc:para>
+						</dk:textSimple>
+					</sp:licence>
+				</dk:rootM>
+			</sp:info>
+			<sp:settings>
+				<sp:glos>yes</sp:glos>
+				<sp:extras>yes</sp:extras>
+			</sp:settings>
+		</dk:guidePRootM>
+		<sp:guide sc:refUri="/guides_divers/guide-inscription/guide_inscription_autonome.scen"/>
+	</dk:guidePRoot>
+</sc:item>

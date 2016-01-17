@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:screen xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<dk:screenMeta>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Gestion des inscriptions en ligne</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:screenMeta>
+		<sp:img sc:refUri="/membres/membres-generalites/membres-param-inscriptions.png"/>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>État des inscriptions</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>16,31,568,67</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">La gestion des inscriptions permet de définir 3 états :</sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">fermé </sc:inlineStyle>: il n'y a pas de possibilité pour les visiteurs du site de l'AMAP de s'inscrire en ligne comme membre de l'AMAP.</sc:member>
+									<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">ouvert </sc:inlineStyle>: les visiteurs du site de l'AMAP peuvent s'inscrire et obtiennent le statut de membre de l'AMAP.</sc:member>
+									<sc:member xml:space="preserve"><sc:inlineStyle role="emphasis">sur liste d'attente</sc:inlineStyle> :  les visiteurs du site de l'AMAP peuvent s'inscrire et viennent peupler une liste d'attente. Un coordinateur pourra ensuite le faire "remonter" dans la liste des membres.</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Message de bienvenue</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>16,69,568,188</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce champ de saisie permet de définir le <sc:inlineStyle role="emphasis">message d'accueil envoyé</sc:inlineStyle> par messagerie électronique<sc:inlineStyle role="emphasis"> aux nouveaux inscrits</sc:inlineStyle>.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:advice>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Le message d'accueil peut être défini en regard du choix de l'<sc:inlineStyle role="emphasis">état des inscriptions</sc:inlineStyle> réalisé précédemment. Sur liste d'attente, on pourra par exemple préciser qu'il faut passer sur le lieu de distribution pour finaliser l'entrée de la personne dans l'AMAP : adhésion, souscription à au moins un contrat, etc.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:advice>
+			</dk:comment>
+		</sp:zone>
+	</dk:screen>
+</sc:item>

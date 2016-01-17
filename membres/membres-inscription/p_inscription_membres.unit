@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Procédure d'inscription d'un membre par un coordinateur</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:stepListM>
+		<sp:prereq>
+			<dk:comment>
+				<sp:warning>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Il faut avoir activé la "Gestion des membres".</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:warning>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Se connecter avec un compte ayant les droits de "coordinateur".</sc:para>
+								<sc:para xml:space="preserve">Vous devez disposer des informations minimum sur la personne :</sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve">Nom</sc:member>
+									<sc:member xml:space="preserve">Prénom</sc:member>
+									<sc:member xml:space="preserve">Adresse de messagerie électronique</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:note>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Vous devrez par la suite compléter la fiche du nouveau membre avec son adresse postale et  son numéro de téléphone et initialiser son mot de passe.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:note>
+				<sp:warning>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Il faudra transmettre à la personne concernée le mot de passe associé au compte créé (à modifier par vos soins)</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:warning>
+			</dk:comment>
+		</sp:prereq>
+		<sp:steps sc:refUri="/ensemble_etapes-communes/etapes_acces-coordonner-membres.unit"/>
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur le bouton <sc:inlineStyle role="emphasis">Inscrire un membre</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre s'ouvre vous proposant de compléter les informations minimum de création d'un compte : statut, nom , prénom, adresse de messagerie, inscription sur liste d'attente.</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-inscription-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Compléter</sc:inlineStyle> les informations demandées dans <sc:inlineStyle role="emphasis">le formulaire d'inscription</sc:inlineStyle>.</sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Valider</sc:inlineStyle> en cliquant sur le bouton <sc:inlineStyle role="emphasis">inscrire</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Une fenêtre s'ouvre validant l'inscription.</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/popup-confirmation-inscription-membres.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:warning>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Si le membre que vous tentez d'inscrire  existe déjà (rapprochement fait sur la base de l'adresse mail déclarée), vous en êtes informé(e) et dirigé(e) vers la fiche du compte existant. </sc:para>
+												<sc:para xml:space="preserve">Vous pouvez constater que les coordinateurs ont des droits élevés afin de garantir l'autonomie de fonctionnement, notamment  en leur attribuant un nouveau mot de passe afin de les dépanner par exemple.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:warning>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Fermer</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La fiche du membre nouvellement inscrit s'affiche : </sc:para>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">Vous <sc:inlineStyle role="emphasis">pouvez</sc:inlineStyle> la <sc:inlineStyle role="emphasis">compléter</sc:inlineStyle>. </sc:member>
+													<sc:member xml:space="preserve">Vous <sc:inlineStyle role="emphasis">devez</sc:inlineStyle> à minima <sc:inlineStyle role="emphasis">modifier le mot de passe</sc:inlineStyle> et le<sc:inlineStyle role="emphasis"> transmettre à la personne</sc:inlineStyle> concernée.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/membres/membres-inscription/fiche-membre.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+	</dk:stepList>
+</sc:item>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:steps xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Filtrer</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Une fenêtre proposant une ensemble de filtres sur les membres s'affiche :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/filtre-membres-general.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve">Dans la <sc:inlineStyle role="emphasis">liste déroulante Groupe</sc:inlineStyle>, <sc:inlineStyle role="emphasis">sélectionner</sc:inlineStyle> le <sc:inlineStyle role="emphasis">groupe</sc:inlineStyle> désiré puis <sc:inlineStyle role="emphasis">cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Filtrer</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Pour l'exemple <sc:inlineStyle role="emphasis">amapiens-laitages</sc:inlineStyle> :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/filtre-groupes.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:detail>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">La liste des membres appartenant au groupe sélectionné s'affiche :</sc:para>
+										<sc:extBlock role="fig" sc:refUri="/membres/membres-groupes/affichage-membres-groupe.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+	</dk:steps>
+</sc:item>

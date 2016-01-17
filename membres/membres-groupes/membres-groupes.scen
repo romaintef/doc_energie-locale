@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Gérer les groupes</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les groupes permettent de gérer manuellement une population de membres : membres de l'association, jours de distribution différents, souscripteurs d'un contrat particulier, etc. </sc:para>
+								<sc:para xml:space="preserve">Ces groupes seront ensuite utilisés pour retrouver les membres correspondants afin de leur envoyer des e-mails ciblés par exemple.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:example>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Les groupes sont aussi très utiles pour limiter la disponibilité d'un ou plusieurs produits à une population. Concrètement, ils permettent de ne proposer certains produits qu'à un certain groupe de membres. </sc:para>
+								<sc:para xml:space="preserve">Cette approche permet par exemple aux membres concernés de modifier leur commande d'une distribution à l'autre.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:example>
+				<sp:warning>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Un groupe ne peut pas être vide. Lorsque le groupe est créé, le coordinateur qui créé le groupe y est donc inscrit automatiquement. Après avoir peuplé le groupe, il pourra s'en désinscrire si nécessaire.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:warning>
+				<sp:tip>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Pour supprimer un groupe, il suffit de le vider de ses membres.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:tip>
+			</dk:content>
+		</sp:content>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Créer et peupler un groupe</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-groupes/p_membres-groupes.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Afficher les membres d'un groupe</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-groupes/p_affichage-membres-groupe.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Supprimer un groupe</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/membres/membres-groupes/p_supprimer-groupe.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
+	</dk:section>
+</sc:item>

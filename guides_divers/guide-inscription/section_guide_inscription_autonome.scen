@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>S'inscrire comme membre d'une AMAP sur le site energielocale.org</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:op sc:refUri="/membres/membres-inscription/p_inscription_membre_autonome.unit"/>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>

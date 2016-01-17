@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:steps xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Ouvrir</sc:inlineStyle> la <sc:inlineStyle role="emphasis">page de connexion</sc:inlineStyle> au site energielocale.org</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve"><sc:uLink role="url" url="http://www.energielocale.org/identification.stp?ACTION=CONNECTER">http://www.energielocale.org/identification.stp?ACTION=CONNECTER</sc:uLink></sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-enl-mire-connexion.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:detail>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Se connecter</sc:inlineStyle> pour accéder<sc:inlineStyle role="emphasis"> à sa page d'accueil personnalisée</sc:inlineStyle></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-connecte.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur le <sc:inlineStyle role="emphasis">nom de l'AMAP</sc:inlineStyle> qui s'affiche au sein de la page afin d'<sc:inlineStyle role="emphasis">accéder</sc:inlineStyle> à la<sc:inlineStyle role="emphasis"> totalité des menus de coordination</sc:inlineStyle>.</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">Ici : <sc:inlineStyle role="emphasis">AMAP de démonstration</sc:inlineStyle></sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/zone-amap-accueil-perso.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:detail>
+				<sp:result>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">On arrive sur la page d'accueil de son AMAP qui propose entre-autre l'ensemble des <sc:inlineStyle role="emphasis">menus Coordonner</sc:inlineStyle></sc:para>
+										<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-amap.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:result>
+			</dk:step>
+		</sp:step>
+	</dk:steps>
+</sc:item>

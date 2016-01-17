@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:steps xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<sp:steps>
+			<dk:steps>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Lancer</sc:inlineStyle> un<sc:inlineStyle role="emphasis"> navigateur web</sc:inlineStyle> et <sc:inlineStyle role="emphasis">accéder</sc:inlineStyle> au site à l'adresse web (URL) suivante : <sc:uLink role="url" url="http://energielocale.org"><sc:inlineStyle role="emphasis">http://energielocale.org</sc:inlineStyle></sc:uLink></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La page d'accueil du site Énergie locale s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-enl.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Cliquer</sc:inlineStyle> sur le bouton <sc:inlineStyle role="emphasis">Connexion</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:detail>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/btn-connexion.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:detail>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La page de connexion s'affiche :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-enl-mire-connexion.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+				<sp:step>
+					<dk:step>
+						<dk:stepM>
+							<sp:ti>
+								<dk:para>
+									<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Compléter</sc:inlineStyle> les <sc:inlineStyle role="emphasis">champs</sc:inlineStyle> puis <sc:inlineStyle role="emphasis">cliquer</sc:inlineStyle> sur <sc:inlineStyle role="emphasis">Valider</sc:inlineStyle></sc:para>
+								</dk:para>
+							</sp:ti>
+						</dk:stepM>
+						<sp:result>
+							<dk:comment>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">On arrive sur sa page d'accueil personnalisée (espace personnel) :</sc:para>
+												<sc:extBlock role="fig" sc:refUri="/illustrations-communes/accueil-connecte.png"/>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:comment>
+						</sp:result>
+					</dk:step>
+				</sp:step>
+			</dk:steps>
+		</sp:steps>
+	</dk:steps>
+</sc:item>

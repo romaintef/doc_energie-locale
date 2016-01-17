@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:definition xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:definitionMeta>
+			<sp:notion>Coordinateur - Coordinatrice</sp:notion>
+			<sp:syn>Référent - Référente</sp:syn>
+			<sp:def>
+				<dk:textSimple>
+					<sc:para xml:space="preserve">Un coordinateur est une personne ayant des responsabilités au sein d'une AMAP. Elle peut être référent(e) de contrat, responsable du site web de l'AMAP, ou simplement engagée dans la gestion de l'AMAP.</sc:para>
+				</dk:textSimple>
+			</sp:def>
+		</dk:definitionMeta>
+	</dk:definition>
+</sc:item>

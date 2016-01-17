@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:screen xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel" xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+		<dk:screenMeta>
+			<sp:title>
+				<dk:headTitle>
+					<sp:sTitle>Gestion des contacts des membres</sp:sTitle>
+				</dk:headTitle>
+			</sp:title>
+		</dk:screenMeta>
+		<sp:img sc:refUri="/membres/membres-generalites/membres-param-zone-membres.png"/>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Contact producteur</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>17,32,694,101</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce paramètre <sc:inlineStyle role="emphasis">permet</sc:inlineStyle> de <sc:inlineStyle role="emphasis">définir</sc:inlineStyle> les <sc:inlineStyle role="emphasis">modalités de prise de contact</sc:inlineStyle> avec les producteurs de l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Contact membres</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>17,103,694,161</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce paramètre permet de <sc:inlineStyle role="emphasis">définir</sc:inlineStyle> les <sc:inlineStyle role="emphasis">modalités de prise de contact</sc:inlineStyle> avec les membres de l'AMAP.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Contact coordinateur</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>16,160,694,183</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce <sc:inlineStyle role="emphasis">paramètre</sc:inlineStyle> permet de déclencher l'<sc:inlineStyle role="emphasis">affichage d'un lien "Nous contacter"</sc:inlineStyle> à tout visiteur du site de l'AMAP. Ce lien pointe vers un formulaire de contact permettant d'envoyer un message électronique (e-mail) à tous les coordinateurs sans révéler leurs adresses.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+		<sp:zone>
+			<dk:screenZoneMeta>
+				<sp:title>Gestion par familles</sp:title>
+				<sp:geo>
+					<sp:shape>rect</sp:shape>
+					<sp:coords>15,185,574,432</sp:coords>
+				</sp:geo>
+			</dk:screenZoneMeta>
+			<dk:comment>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Ce paramètre permet de <sc:inlineStyle role="emphasis">gérer des familles de clients</sc:inlineStyle> (membres) et/ou des <sc:inlineStyle role="emphasis">familles de fournisseurs</sc:inlineStyle> (producteurs)</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:comment>
+		</sp:zone>
+	</dk:screen>
+</sc:item>
