@@ -6,4 +6,4 @@ Cette documentation est réalisée avec SCENARIChain 4.1 et Dokiel 4.1. L'ensemble
 
 <hr />
 
-Les sources proposées sont sous licence Creative Commons BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
+Le logiciel présenté est une adaptation pour les AMAP de la Solution de gestion commerciale pour les circuits courts proposée par http://panierlocal.org
