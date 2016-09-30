@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:stepList xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:stepListM/>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve"><sc:inlineStyle role="emphasis">Compléter</sc:inlineStyle> le <sc:uLink role="url" url="http://www.energielocale.org/gestionCircuit.stp?ACTION=NOUS_CONTACTER&amp;local=ENL">formulaire</sc:uLink> de demande de renseignement.</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:extras>
+					<dk:rTitle/>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:extBlock role="fig" sc:refUri="/pour-demarrer/formulaire-demande.png"/>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:extras>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve">Échanges par messagerie électronique pour transmission des informations nécessaires</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+				<sp:detail>
+					<dk:comment>
+						<sp:infobloc>
+							<dk:blocTi/>
+							<dk:flowAll>
+								<sp:txt>
+									<dk:text>
+										<sc:para xml:space="preserve">L'association Énergie Locale doit avoir en sa possession un  minimum d'informations pour créer une AMAP :</sc:para>
+										<sc:simpleList>
+											<sc:member xml:space="preserve">le Nom de l'AMAP qui sera exploitée comme titre principal sur site de l'AMAP et utilisée pour proposer une URL (adresse web) d'accès au site.</sc:member>
+											<sc:member xml:space="preserve">les informations liées à l'identité du demandeur afin de créer le premier compte membre (qui sera coordinateur) : à minima le nom, prénom, l'adresse de messagerie utilisée.</sc:member>
+										</sc:simpleList>
+									</dk:text>
+								</sp:txt>
+							</dk:flowAll>
+						</sp:infobloc>
+					</dk:comment>
+				</sp:detail>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve">Création de l'AMAP sur le site <sc:uLink role="url" url="http://energielocale.org">http://energielocale.org</sc:uLink></sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+			</dk:step>
+		</sp:step>
+		<sp:step>
+			<dk:step>
+				<dk:stepM>
+					<sp:ti>
+						<dk:para>
+							<sc:para xml:space="preserve">Transmission de l'adresse web du site de la nouvelle AMAP au demandeur initial.</sc:para>
+						</dk:para>
+					</sp:ti>
+				</dk:stepM>
+			</dk:step>
+		</sp:step>
+	</dk:stepList>
+</sc:item>

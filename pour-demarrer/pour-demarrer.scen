@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Gérer son AMAP sur le site energielocale.org</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Le site energielocale.org propose des outils qui </sc:para>
+								<sc:simpleList>
+									<sc:member xml:space="preserve">facilitent la gestion au quotidien des AMAPs : gestion des permanences, des livraisons, des permanences, des commandes, etc.</sc:member>
+									<sc:member xml:space="preserve">apportent du confort pour les mangeurs : possibilité de visualiser ses commandes par date de livraison, de modifier ses commandes si cela est permie par le contrat passé, s'inscrire et se désinscrire d'une permanence, etc.</sc:member>
+									<sc:member xml:space="preserve">facilitent l'arrivée de nouveaux membres : par la publication du site de l'AMAP, la possibilité de s'inscrire sur le site, etc.</sc:member>
+									<sc:member xml:space="preserve">améliorent la communication entre les membres : au travers des fonctionnalités d'envoi de messages ciblés ou collectifs, de notifications automatiques, etc.</sc:member>
+									<sc:member xml:space="preserve">apportent une souplesse dans la gestion de  certains produits : par la possibilité de ne réserver certains produits qu'à certains groupes de membres, ...................</sc:member>
+								</sc:simpleList>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+				<sp:infobloc>
+					<dk:blocTi/>
+					<dk:flowAll>
+						<sp:txt>
+							<dk:text>
+								<sc:para xml:space="preserve">Compléter le <sc:uLink role="url" url="http://www.energielocale.org/gestionCircuit.stp?ACTION=NOUS_CONTACTER&amp;local=ENL">formulaire</sc:uLink> de demande de renseignement.</sc:para>
+							</dk:text>
+						</sp:txt>
+					</dk:flowAll>
+				</sp:infobloc>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>
