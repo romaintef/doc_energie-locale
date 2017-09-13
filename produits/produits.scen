@@ -11,12 +11,25 @@
 					<dk:flowAll>
 						<sp:txt>
 							<dk:text>
-								<sc:para xml:space="preserve">Cette section de la documentation détaillera bientôt la gestion des produits sur le site web de l'AMAP.</sc:para>
+								<sc:para xml:space="preserve">Cette section de la documentation présente la gestion du catalogue de produit qui est un prérequis pour les commandes et les contrats.</sc:para>
 							</dk:text>
 						</sp:txt>
 					</dk:flowAll>
 				</sp:infobloc>
 			</dk:content>
 		</sp:content>
+		<sp:subSection sc:refUri="/produits/produits-generalites/section_produits-generalites.scen"/>
+		<sp:subSection>
+			<dk:section>
+				<dk:headTitle>
+					<sp:sTitle>Activation des produits</sp:sTitle>
+				</dk:headTitle>
+				<sp:content>
+					<dk:content>
+						<sp:op sc:refUri="/produits/produits-generalites/p_activation_des_produits.unit"/>
+					</dk:content>
+				</sp:content>
+			</dk:section>
+		</sp:subSection>
 	</dk:section>
 </sc:item>

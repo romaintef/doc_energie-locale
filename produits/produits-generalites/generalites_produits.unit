@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:part xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:rTitle>
+			<sp:rTitle>
+				<dk:richTitle>
+					<sc:para xml:space="preserve">Le service de gestion des produits</sc:para>
+				</dk:richTitle>
+			</sp:rTitle>
+		</dk:rTitle>
+		<sp:co>
+			<dk:content>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">C'est quoi ? à quoi ça sert ?</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La <sc:inlineStyle role="emphasis">gestion des produits </sc:inlineStyle>est un service que l'on peut activer ou non sur le site de son AMAP.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Ce service <sc:inlineStyle role="emphasis">permet de décrire tous les produits disponibles pour chaque producteur de l'AMAP.<sc:inlineStyle role="emphasis"><sc:inlineStyle role="emphasis"/></sc:inlineStyle> <sc:textLeaf role="textButton"/></sc:inlineStyle>Ce catalogue peut servir à informer les mangeurs ou des visiteurs, mais il est surtout utilisé pour passer des commandes ou passer au contrat en ligne.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+								<sp:note>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">La gestion du catalogue de produits permet de transférer sur le site de l'AMAP la gestion de commandes ou de contrats préalablement papiers ou suivis sur des fichiers Excel.</sc:para>
+												<sc:para xml:space="preserve">Le catalogue est centralisé, il apporte une vue partagée par tous : visiteurs, mangeurs, coordinateurs, producteurs.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:note>
+								<sp:warning>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve"> L'activation de la gestion des produits est un pré-requis nécessaire à l'utilisation d'autres fonctionnalités telles que la gestion des contrats ou des commandes, etc. L'utilisation de ce service peut cependant se faire progressivement pour arriver à des usages plus avancés.</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:warning>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">Tour d'horizon</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">Les principaux apports de ce service sont les suivants :</sc:para>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">fonctionnalités permettant d<sc:inlineStyle role="emphasis">'afficher le catalogue de produits aux visiteurs</sc:inlineStyle> du  site de l'AMAP, ou aux membres.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/produits/produits-generalites/service_produit_onglet.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">Gérer les produits et leurs prix en vue d'une utilisation pour les <sc:inlineStyle role="emphasis">commandes ou les contrats</sc:inlineStyle>.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/produits/produits-generalites/service_produit_liste.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">La<sc:inlineStyle role="emphasis"> disponibilité</sc:inlineStyle>, d'un produit en fonction de la saison ou de la production.</sc:member>
+												</sc:simpleList>
+												<sc:extBlock role="fig" sc:refUri="/produits/produits-generalites/service_produit_disponibilite.png"/>
+												<sc:simpleList>
+													<sc:member xml:space="preserve">Pour les producteurs qui utilisent la solution professionnelle Panier Local,<sc:inlineStyle role="emphasis"> la centralisation du catalogue pour toutes leurs AMAPs.</sc:inlineStyle></sc:member>
+												</sc:simpleList>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+			</dk:content>
+		</sp:co>
+	</dk:part>
+</sc:item>

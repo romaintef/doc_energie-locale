@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc:item xmlns:sc="http://www.utc.fr/ics/scenari/v3/core">
+	<dk:section xmlns:sp="http://www.utc.fr/ics/scenari/v3/primitive" xmlns:dk="kelis.fr:dokiel">
+		<dk:headTitle>
+			<sp:sTitle>Généralités sur la gestion des produits, activation</sp:sTitle>
+		</dk:headTitle>
+		<sp:content>
+			<dk:content>
+				<sp:part sc:refUri="/produits/produits-generalites/generalites_produits.unit"/>
+				<sp:part>
+					<dk:part>
+						<dk:rTitle>
+							<sp:rTitle>
+								<dk:richTitle>
+									<sc:para xml:space="preserve">Activer et accéder à la gestion des produits</sc:para>
+								</dk:richTitle>
+							</sp:rTitle>
+						</dk:rTitle>
+						<sp:co>
+							<dk:content>
+								<sp:infobloc>
+									<dk:blocTi/>
+									<dk:flowAll>
+										<sp:txt>
+											<dk:text>
+												<sc:para xml:space="preserve">à compléter ...................</sc:para>
+											</dk:text>
+										</sp:txt>
+									</dk:flowAll>
+								</sp:infobloc>
+							</dk:content>
+						</sp:co>
+					</dk:part>
+				</sp:part>
+			</dk:content>
+		</sp:content>
+	</dk:section>
+</sc:item>
